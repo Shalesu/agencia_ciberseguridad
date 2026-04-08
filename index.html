@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGENCIA CIBERSEGURIDAD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>AGENCIA CIBERSEGURIDAD</h1>
+    <nav>
+      <ul>
+        <li><a href="#Quienes Somos">Quienes somos</a></li>
+        <li><a href="#Servicios">Servicios</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="quienes somos">
+    <h2>Quienes somos</h2>
+    <p>Somos un equipo apasionado por la ciberseguridad, enfocado en proteger la información y los sistemas de personas y
+    empresas frente a las amenazas digitales actuales.
+
+    Trabajamos con un enfoque práctico y actualizado, aplicando conocimientos en seguridad informática, análisis de
+    vulnerabilidades y protección de sistemas para ofrecer soluciones reales y efectivas.
+
+    Nuestro objetivo es ayudarte a prevenir ataques, detectar riesgos y mantener tu entorno digital seguro.</p>
+  </section>
+
+  <section id="Nuestro equipo">
+    <h2>Nuestro Equipo</h2>
+    <p>Detrás de cada servicio hay profesionales en formación y constante aprendizaje en el área de la ciberseguridad,
+    comprometidos con entregar un trabajo serio, responsable y de calidad.
+
+    <p> Nos caracterizamos por:
+      <ul>
+        <li>Pensamiento analitico</li>
+        <li>Actualizacion constante en nuevas amenenzas</li>
+        <li>Enfoque etico y profesional</li>
+        <li>Compromiso con cada cliente</li>
+
+      </ul>
+    </p>
+
+   </p>
+
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="card">
+      <h3>Auditoria</h3>
+      <p>Revision de paginas web, redes o sistemas, detectar vulnerabilidades (SQL injection, XSS,etc).</p>
+    </div>
+    <div class="card">
+      <h3>Analisis de vulnerabilidades</h3>
+      <p>Escaneo con herramientas(Nmap,Nessus, OpenVAS), identificacion de puertos abiertos y riesgos.</p>
+    </div>
+    <div class="card">
+      <h3>Seguridad</h3>
+      <p>Configuracion de HTTPS/SSL, proteccion contra ataque basicos, etc.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formContacto" method="POST" action="contacto.php">
+      <label>Nombre:</label>
+      <input type="text" name="nombre" required>
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      <label>Mensaje:</label>
+      <textarea name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="respuesta"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Agencia Ciberseguridad </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
